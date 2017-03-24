@@ -22,7 +22,7 @@ print("Hello! This is a simple program for simple calculations")
 
 #Specify operation
 print("What would you like to do today?")
-doToday = "add" #HACK
+doToday = input("operation:") #HACK
 print("We will " + doToday + " two numbers now.")
 
 var1 = input("First number: ")
@@ -30,6 +30,8 @@ var2 = input("Second number: ")
 
 if doToday=="add":
     result = add_two_numbers(var1, var2)
+if doToday=="subtract":
+	result = subtract_two_numbers(var1, var2)
 
 print("This is the result:", result)
 print("I hope it is correct...")
