@@ -22,6 +22,8 @@ print("We are in directory:", currentDirectory)
 print("The following is a list of files in a current directory:")
 print(os.listdir())
 
+for dir in os.listdir():
+	print(dir)
 
 
 print("Here it ends")
