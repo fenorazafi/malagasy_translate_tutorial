@@ -16,7 +16,15 @@ def add_two_numbers(x,y):
 def subtract_two_numbers(x,y):
     """ subtract two numbers """
     return int(x) - int(y)
-
+	
+def multiplication_two_numbers(x,y):
+    """ multiplication two numbers """
+    return int(x) * int(y)
+	
+def division_two_numbers(x,y):
+    """ division two numbers """
+    return int(x) / int(y)
+	
 #Greeting
 print("Hello! This is a simple program for simple calculations")
 
@@ -30,8 +38,15 @@ var2 = input("Second number: ")
 
 if doToday=="add":
     result = add_two_numbers(var1, var2)
-if doToday=="subtract":
+elif doToday=="subtract":
 	result = subtract_two_numbers(var1, var2)
+elif doToday=="multiplication":
+	result = multiplication_two_numbers(var1, var2)
+elif doToday=="division":
+	if var2=="0":
+		result = var2
+	else:
+		result = division_two_numbers(var1, var2)
 
 print("This is the result:", result)
 print("I hope it is correct...")

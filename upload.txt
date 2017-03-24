@@ -1,0 +1,15 @@
+    1  cd f:
+    2  cd ..
+    3  pwd
+    4  cd RAZAFIMAHATRATRA/
+    5  cd Documents
+    6  git clone https://github.com/fenorazafi/malagasy_translate_tutorial.git
+    7  cd malagasy_translate_tutorial
+    8  ls
+    9  git log
+   10  git status
+   11  git diff
+   12  git add 1_os_operations.py && git commit -m "Fiovana kely" && git push
+   13  git status
+   14  git commit
+   15  history >upload.txt
